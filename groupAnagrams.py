@@ -1,3 +1,4 @@
+# hash anagrams by sorting the string and using it as a key
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         anagram_groups = {}
